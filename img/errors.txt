@@ -1,0 +1,5 @@
+[2019-11-18 17:42:29] layer "+ Read More": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-11-18 17:42:29] layer "+ Read More": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-11-18 17:42:29] layer "+ Read More": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-11-18 17:42:29] layer "hello@codecafe.com Personal@codecafe.com": Unsupported extension: com
+[2019-11-18 17:42:29] layer "+00 11 66 99 66 44 11 99 66 44 065": Expected Either a default asset specification or a layer asset specification but "+" found.
