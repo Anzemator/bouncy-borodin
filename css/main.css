@@ -381,6 +381,7 @@ svg circle{
 .portfolio__menu{
     list-style-type: none;
     margin-bottom: 60px;
+    justify-content: space-between;
 }
 .work__btn{
     background-color: transparent;
@@ -1123,6 +1124,39 @@ vertical-slider{
     .rel img{
         display: none;
     }
+    .works__text__body{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .works__title{
+        font-size: 16px;
+    }
+    .works__p{
+        font-size: 10px;
+    }
+    .low .works__title{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .low span{
+        font-size: 10px;
+    }
+    .low .works__p{
+        line-height: 14px;
+        margin-bottom: 3px;
+    }
+    .low, .low-m, .middle-l{
+        margin-top: 2%;
+    }
+    .low-m .works__p{
+        line-height: 14px;
+    }
+    .middle-l .works__p{
+        line-height: 14px;
+    }
+    .high{
+        margin-top: 7%;
+    }
 }
 @media screen and (max-width: 535px){
     .header__menu a{
@@ -1130,6 +1164,17 @@ vertical-slider{
     }
     .arrow span{
         font-size: 25px;
+    }
+    .portfolio__menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .work__btn{
+        display: block;
+        margin: 20px;
+    }
+    .underline{
+        width: 35%;
     }
 }
 @media screen and (max-width: 450px){
@@ -1149,13 +1194,6 @@ vertical-slider{
         margin: 20px 0 30px;
     }
     .cardd{
-        margin: auto;
-    }
-    .portfolio__menu{
-        flex-direction: column;
-    }
-    .work__btn{
-        display: block;
         margin: auto;
     }
     
