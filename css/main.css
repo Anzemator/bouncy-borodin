@@ -56,6 +56,8 @@ button:focus{
     font-size: 16px;
     color: #fff;
     transition: 0.3s;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 17px;;
 }
 
 .header__menu a:hover{
@@ -179,7 +181,7 @@ button:focus{
     max-height: auto;
 }
 
-.hover:hover{
+.hover:hover img{
     filter: brightness(50%);
     transition: 0.3s;
 }
@@ -454,14 +456,13 @@ svg circle{
     font-size: 12px;
 }
 .underline{
-    display: none;
     width: 70%;
     margin: 0 auto;
-    border-top: 2px solid #19bd9a;
+    border-top: 2px solid rgba(0, 0, 0, 0);
     transition: 0.3s;
 }
 .portfolio__btn:hover .underline{
-    display: block;
+    border-top: 2px solid #19bd9a;
 }
 .port-footer{
     background-image: url("../img/bg2.png");
